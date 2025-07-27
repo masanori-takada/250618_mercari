@@ -6,9 +6,6 @@ autogluon_models/
 *.model
 
 # データファイル（大容量）
-data/
-*.tsv
-*.csv
 
 # Python実行関連
 __pycache__/
