@@ -1,0 +1,42 @@
+# AutoGluon 1.0 Mercari Price Prediction - GitIgnore
+
+# AutoGluon生成モデルファイル
+autogluon_models/
+*.pkl
+*.model
+
+# データファイル（大容量）
+data/
+*.tsv
+*.csv
+
+# Python実行関連
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+*.out
+
+# 一時ファイル
+*.tmp
+*.temp 

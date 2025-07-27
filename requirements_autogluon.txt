@@ -1,0 +1,29 @@
+# AutoGluon 1.0 Mercari Price Prediction Requirements
+# AutoGluon 1.0 Mercari価格予測システムの依存関係
+# 30分以内完了保証、A100最適化
+
+# AutoGluon 1.0 Core
+autogluon>=1.0.0,<1.1.0
+
+# Data Processing
+pandas>=2.0,<2.2
+numpy>=1.21,<1.29
+scikit-learn>=1.3,<1.5
+
+# GPU Acceleration
+torch>=2.0,<2.2
+
+# Text Processing  
+scipy>=1.5.4,<1.13
+
+# Performance Monitoring
+psutil>=5.8.0
+tqdm>=4.64.0
+
+# Development Tools
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Optional: Additional ML backends
+lightgbm>=3.3,<4.2  # AutoGluon内部で使用
+xgboost>=1.6,<2.1   # AutoGluon内部で使用 
